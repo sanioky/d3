@@ -2,4 +2,4 @@
 
 Data Visualization Projects with D3.js library
 
-Based on [Data Visualization certification](https://www.freecodecamp.org/learn/data-visualization)
+Based on [freeCodeCamp Data Visualization Courses](https://www.freecodecamp.org/learn/data-visualization)
