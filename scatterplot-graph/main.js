@@ -97,34 +97,34 @@ const scatterPlot = () => {
             .call(d3.axisLeft(y).tickFormat(formatTime));
 
         const legend = selection.append('g')
-            .attr('id', 'legend')
+            .attr('id', 'legend');
 
         legend.append('rect')
             .attr('x', `${width - margin.right}`)
             .attr('y', 90)
             .attr('width', 10)
             .attr('height', 10)
-            .attr('fill', 'red')
+            .attr('fill', 'red');
 
 
         legend.append('text')
             .text('Riders with doping allegations')
             .attr('x', `${width - margin.right - 10}`)
             .attr('y', 100)
-            .style('text-anchor', 'end')
+            .style('text-anchor', 'end');
 
         legend.append('rect')
             .attr('x', `${width - margin.right}`)
             .attr('y', 110)
             .attr('width', 10)
             .attr('height', 10)
-            .attr('fill', 'green')
+            .attr('fill', 'green');
 
         legend.append('text')
             .text('No doping allegations')
             .attr('x', `${width - margin.right - 10}`)
             .attr('y', 120)
-            .style('text-anchor', 'end')
+            .style('text-anchor', 'end');
     };
 
     my.width = function (_) {
