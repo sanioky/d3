@@ -10,6 +10,7 @@ const getMonthName = (monthNumber) => {
 }
 
 const heatMap = () => {
+    console.log('heatMap');
     let width;
     let height;
     let data;
