@@ -2,6 +2,8 @@ const jsonUrl = 'https://raw.githubusercontent.com/freeCodeCamp/ProjectReference
 
 const getMonthName = (monthNumber) => {
     const date = new Date();
+    console.log(monthNumber);
+    
     date.setMonth(monthNumber - 1);
 
     return date.toLocaleString('en-US', {
